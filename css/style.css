@@ -1,0 +1,14 @@
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.section--xl {
+  padding: 2.5rem 0;
+}
+
+@media (min-width: 768px) {
+  .section--xl {
+    padding: 5rem 0;
+  }
+}
