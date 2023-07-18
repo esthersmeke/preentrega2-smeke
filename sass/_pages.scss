@@ -1,0 +1,12 @@
+body {
+  font-family: $primary-font;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.section--xl {
+  padding: $xl-padding 0;
+}

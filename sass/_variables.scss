@@ -1,0 +1,28 @@
+$primary-font: "Montserrat", sans-serif;
+$secondary-font: "Indie Flower", cursive;
+$xl-padding: 2.5rem;
+$xl-padding-large: 5rem;
+
+$colors: (
+  gray: #4a494e,
+  teal: #788280,
+  light-blue: #7395ae,
+  blue: #557a95,
+  beige: #b1a296,
+);
+
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.section--xl {
+  padding: 2.5rem 0;
+}
+
+
+/*.my-element {
+  background-color: map-get($colors, teal);
+  color: map-get($colors, blue);
+}/*
