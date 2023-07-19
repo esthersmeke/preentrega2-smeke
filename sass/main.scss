@@ -1,9 +1,86 @@
-// Custom.scss
-// Option A: Include all of Bootstrap
+//Variables
+$primary-font: "Montserrat", sans-serif;
+$secondary-font: "Indie Flower", cursive;
+$xl-padding: 2.5rem;
+$xl-padding-large: 5rem;
+$tertiary-color: #e1e2e2;
+$secondary-color: #1d2228;
+$info-color: #fb8122;
 
-// Include any default variable overrides here (though functions won't be available)
-@import "vars";
+/*$dark-gray: #5d5c61;
+$light-gray: #938e94;
+$light-blue: #7395ae;
+$dark-blue: #557a95;
+$beige: #b0a295;
 
-@import "../node_modules/bootstrap/scss/bootstrap";
+$tertiary-color: #557a95;
 
-// Then add additional custom code here
+/*$colors: (
+  dark-gray: #5d5c61,
+  light-gray: #938e94,
+  light-blue: #7395ae,
+  dark-blue: #557a95,
+  beige: #b0a295,
+);*/
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.section--xl {
+  padding: 2.5rem 0;
+}
+
+//Navbar
+.navbar {
+  &.bg-body-tertiary {
+    background-color: $tertiary-color !important;
+  }
+}
+.navbar-brand,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $secondary-font;
+  font-size: 3rem;
+}
+
+//Pages
+.hero {
+  background-color: $secondary-color !important;
+  h1 {
+    color: $info-color !important;
+  }
+  .btn-custom {
+    background-color: $info-color;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  .btn-custom:hover {
+    background-color: transparent;
+  }
+}
+
+body {
+  font-family: $primary-font;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.section--xl {
+  padding: $xl-padding 0;
+}
+
+//Media
+@media (min-width: 768px) {
+  .section--xl {
+    padding: $xl-padding-large 0;
+  }
+}
