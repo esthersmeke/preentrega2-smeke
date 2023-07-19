@@ -1,5 +1,5 @@
-# preentrega2-smeke
+# preentrega3-smeke
 
 ## CoderHouse
 
-**Proyecto para la segunda pre-entrega de HTML, Bootstrap y Git.**
+**Proyecto para la tercera pre-entrega de Sass y ESO.**
